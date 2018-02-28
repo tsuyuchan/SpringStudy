@@ -14,34 +14,34 @@
     <!--<bean id="userService" class="ioc.UserService">-->
         <!--<property name="userDao" ref="userDao"></property>-->
     <!--</bean>-->
-    <bean id="hello" class="Hello">
-        <property name="arrs">
-            <list>
-                <value>aaa</value>
-                <value>bbb</value>
-                <value>ccc</value>
-            </list>
-        </property>
-        <property name="list">
-            <list>
-                <value>xxx</value>
-                <value>yyy</value>
-                <value>zzz</value>
-            </list>
-        </property>
-        <property name="map">
-            <map>
-                <entry key="aa" value="xx"></entry>
-                <entry key="bb" value="yy"></entry>
-                <entry key="cc" value="zz"></entry>
-            </map>
-        </property>
-        <property name="properties">
-            <props>
-                <prop key="driverclass">com.mysql.jdbc.Driver</prop>
-                <prop key="username">root</prop>
-            </props>
-        </property>
-    </bean>
+    <!--<bean id="hello" class="Hello">-->
+        <!--<property name="arrs">-->
+            <!--<list>-->
+                <!--<value>aaa</value>-->
+                <!--<value>bbb</value>-->
+                <!--<value>ccc</value>-->
+            <!--</list>-->
+        <!--</property>-->
+        <!--<property name="list">-->
+            <!--<list>-->
+                <!--<value>xxx</value>-->
+                <!--<value>yyy</value>-->
+                <!--<value>zzz</value>-->
+            <!--</list>-->
+        <!--</property>-->
+        <!--<property name="map">-->
+            <!--<map>-->
+                <!--<entry key="aa" value="xx"></entry>-->
+                <!--<entry key="bb" value="yy"></entry>-->
+                <!--<entry key="cc" value="zz"></entry>-->
+            <!--</map>-->
+        <!--</property>-->
+        <!--<property name="properties">-->
+            <!--<props>-->
+                <!--<prop key="driverclass">com.mysql.jdbc.Driver</prop>-->
+                <!--<prop key="username">root</prop>-->
+            <!--</props>-->
+        <!--</property>-->
+    <!--</bean>-->
 
 </beans>
